@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "settings": {
+      "color": {
+        "palette": [
+          { "name": "Bleu foncé", "slug": "bleu-fonce", "color": "#0C264D" },
+          { "name": "Bleu clair", "slug": "bleu-clair", "color": "#3D8CE1" },
+          { "name": "Bleu pastel", "slug": "bleu-pastel", "color": "#72C5F5" },
+          { "name": "Blanc", "slug": "blanc", "color": "#F4F9FF" }
+        ]
+      },
+      "typography": {
+        "fontFamilies": [
+          {
+            "fontFamily": "'Now', sans-serif",
+            "name": "Now",
+            "slug": "now"
+          },
+          {
+            "fontFamily": "'Maragsa', serif",
+            "name": "Maragsa",
+            "slug": "maragsa"
+          }
+        ]
+      }
+    }
+  }

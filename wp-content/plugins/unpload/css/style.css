@@ -1,0 +1,157 @@
+
+
+/**/
+
+.hidden {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.bg-custom {
+    background-color: #F2E5DB;
+}
+
+.color-green {
+    background-color: #5B7D76;
+}
+
+.color-green-light {
+    background-color: hsla(168, 16%, 48%, 0.524);
+}
+
+.text-color-green {
+    color: #5B7D76;
+}
+
+.border-green {
+    border: 1px solid #5B7D76;
+}
+
+.hover-green:hover {
+    background-color: #5B7D76;
+    color: white;
+}
+
+.active {
+    background-color: #5B7D76;
+    color: white;
+}
+
+.bg-green-100 {
+    background-color: #e2f2e2;
+}
+
+
+/* @media screen and (max-width: 450px) {
+    .icone {
+        display: none;
+    }
+    .form-section{
+        margin-left: 1.5rem;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    form{
+        padding: 0px;
+    }
+}
+ */
+
+
+.wppdf-container {
+    background-color: rgba(255, 189, 89, 0.4); /* Couleur #FFBD59 à 40% */
+    width: 100%;
+    padding: 100px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:3rem;
+}
+
+/* Titre */
+.wppdf-title {
+    color: #5B7D76;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 10rem;
+}
+
+/* Bouton de téléchargement */
+.wppdf-download-link {
+    text-decoration: none;
+}
+
+.wppdf-download-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    border: 2px solid #5B7D76;
+    color: #5B7D76;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background 0.3s ease;
+    margin-right: 10rem;
+}
+
+.wppdf-download-button:hover {
+    background: #5B7D76;
+    color: #fff;
+}
+
+/* Icône */
+.wppdf-download-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.wppdf-download-button:hover .wppdf-download-icon path {
+    stroke: #ffffff; /* Change la couleur de l'icône en blanc */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .wppdf-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 0px;
+    }
+
+    .wppdf-title {
+        font-size: 32px;
+        margin-bottom: 15px;
+        padding-left: 0rem;
+    }
+
+    .wppdf-download-button {
+        font-size: 24px;
+        padding: 10px 16px;
+        margin-right: 0rem;
+    }
+
+    /* Ajout de la flèche pour guider l’utilisateur */
+    .wppdf-download-link::before {
+        content: "↓";
+        display: block;
+        font-size: 30px;
+        color: #5B7D76;
+        margin-bottom: 15px;
+        animation: bounce 1.5s infinite;
+    }
+}
+
+/* Animation de la flèche */
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(5px); }
+}
